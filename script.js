@@ -11,23 +11,22 @@ const skills = [
 
 const projects = [
   {
-    title: "Birthday Experience",
-    description: "An animated multi-page birthday website with photos, music and interactive moments.",
-    image: "images/photo2.jpg",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    demo: "#",
-    github: "#"
+    title: "EduTrack",
+    description: "A modern education platform interface for students and parents.",
+    image: "",
+    technologies: ["HTML", "CSS", "JavaScript", "UI/UX"],
+    demo: "https://abdo124206-crypto.github.io/Abdulrahman04/",
+    github: "https://github.com/abdo124206-crypto/Abdulrahman04"
   },
   {
-    title: "Coming Soon",
-    description: "Your next project goes here. Replace this card with your real work when you're ready.",
-    image: "",
-    technologies: ["Your", "Next", "Project"],
-    demo: "#",
-    github: "#"
+    title: "Birthday Surprise",
+    description: "An interactive Arabic birthday experience with animations and memories.",
+    image: "images/photo2.jpg",
+    technologies: ["HTML", "CSS", "JavaScript", "Animation"],
+    demo: "https://abdo124206-crypto.github.io/Abdulrahman01/",
+    github: "https://github.com/abdo124206-crypto/Abdulrahman01"
   }
 ];
-
 const gallery = [
   "images/photo1.jpg",
   "images/photo2.jpg",
