@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abdulrahman's personal portfolio — Computer Science student and aspiring web developer.">
+  <title>Abdulrahman — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home"><span>A</span> Abdulrahman</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">CS STUDENT • ASPIRING WEB DEVELOPER</p>
+        <h1>Building the <span>digital future</span> one project at a time.</h1>
+        <p class="hero-text">
+          I'm Abdulrahman — a Computer Science student who loves turning ideas into
+          clean, interactive and memorable websites.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore My Work <span>↗</span></a>
+          <a class="btn ghost" href="#contact">Let's Connect</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>CS</strong><small>Student</small></div>
+          <div><strong>WEB</strong><small>Developer</small></div>
+          <div><strong>∞</strong><small>Ideas</small></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="portrait-frame">
+          <img src="images/profile.jpg" alt="Abdulrahman">
+          <div class="portrait-tag">AVAILABLE FOR NEW IDEAS</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>A little <span>about me.</span></h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-card about-card reveal">
+          <p>
+            I'm Abdulrahman, a Computer Science student at Zewail City.
+            I'm building my skills from the ground up and focusing on web development,
+            programming and creating projects that actually feel useful and alive.
+          </p>
+          <p>
+            This portfolio is designed to grow with me — every new skill, project,
+            certificate or achievement can be added without rebuilding the whole site.
+          </p>
+        </article>
+        <div class="quote-card reveal">
+          <div class="quote-mark">“</div>
+          <p>Don't just learn to code. Learn to build.</p>
+          <span>— Abdulrahman</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — SKILLS</p>
+        <h2>Tools I'm <span>growing with.</span></h2>
+      </div>
+      <div id="skills-grid" class="skills-grid"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Things I've <span>built.</span></h2>
+        <p class="section-note">Add new projects from one simple list inside <code>script.js</code>.</p>
+      </div>
+      <div id="projects-grid" class="projects-grid"></div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — GALLERY</p>
+        <h2>Moments <span>outside the code.</span></h2>
+        <p class="section-note">Your photos are loaded from the <code>images</code> folder.</p>
+      </div>
+      <div id="gallery-grid" class="gallery-grid"></div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 — CONTACT</p>
+        <h2>Let's build something <span>great.</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="glass-card contact-card reveal">
+          <p class="contact-intro">Have an idea, project or just want to say hi? Find me here.</p>
+          <a class="contact-link" href="mailto:abdulrahman124206@gmail.com">
+            <span class="contact-icon">✉</span>
+            <span><small>Email</small>abdulrahman124206@gmail.com</span>
+            <b>↗</b>
+          </a>
+          <a class="contact-link" href="https://www.facebook.com/share/19EU6W736X/" target="_blank" rel="noopener">
+            <span class="contact-icon">f</span>
+            <span><small>Facebook</small>Abdulrahman</span>
+            <b>↗</b>
+          </a>
+          <a class="contact-link" href="https://wa.me/qr/5R4R3WBNDHB4G1" target="_blank" rel="noopener">
+            <span class="contact-icon">◉</span>
+            <span><small>WhatsApp</small>Message me</span>
+            <b>↗</b>
+          </a>
+        </div>
+
+        <div class="qr-card reveal">
+          <div class="qr-label">WHATSAPP</div>
+          <img src="images/whatsapp-qr.jpg" alt="WhatsApp QR code">
+          <p>Scan to start a conversation.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Abdulrahman. Built with curiosity & code.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
